@@ -1,0 +1,80 @@
+.center {
+    text-align:center;
+}
+.justify{
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 16px;
+}
+
+#menu{
+    background-color: black;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+#fundo{
+    background-color: black;
+}
+
+#texto{
+    color:white;
+}
+
+#title{
+    color:white;
+}
+
+#title:hover {
+    color:red;
+}
+
+.p-66 {
+    padding: 10px;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+
+.imagem1{
+    width: 347px;
+    height: 283px;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+.imagem2{
+    width: 347px;
+    height: 283px;
+    padding-top: 122px
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.justify{
+    text-align: justify;
+}

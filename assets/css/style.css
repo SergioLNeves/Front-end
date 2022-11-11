@@ -1,23 +1,26 @@
 .center {
-    text-align:center;
+    text-align: center;
 }
-.justify{
-    text-align: justify;
+
+.justify {
+    text-align: center;
 }
 
 .container {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: justify;
     align-items: center;
 }
 
+
+/*---------------------Menu----------------------*/
 #menu li {
     display: inline;
     padding: 16px;
 }
 
-#menu{
+#menu {
     background-color: black;
 }
 
@@ -32,20 +35,29 @@
     font-size: 20px;
 }
 
-#fundo{
+/*---------------------Menu----------------------*/
+.fundo {
     background-color: black;
 }
 
-#texto{
-    color:white;
+.texto {
+    color: white;
+    column-count: 2;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: red;
+    text-justify: auto;
 }
 
-#title{
-    color:white;
+.title {
+    color: white;
+    font-size: 64px;
+    padding-bottom: 4%;
 }
 
-#title:hover {
-    color:red;
+.title:hover {
+    color: red;
 }
 
 .p-66 {
@@ -54,27 +66,35 @@
     padding-right: 66px;
 }
 
-.imagem1{
+#imagem1 {
     width: 347px;
     height: 283px;
     padding-top: 30px;
     padding-right: 15px;
 }
-.imagem2{
-    width: 347px;
-    height: 283px;
-    padding-top: 122px
-}
 
-.tm-social{
+.tm-social {
     width: 40px;
     height: 40px;
 }
 
-.mb-50{
+.mb-50 {
     margin-bottom: 50px;
 }
 
-.justify{
+.justify {
     text-align: justify;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+#imagem {
+    width: 100%;
+    padding-bottom: 6%;
 }

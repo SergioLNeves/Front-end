@@ -3,7 +3,7 @@
 }
 
 .justify {
-    text-align: center;
+    text-align: justify;
 }
 
 .container {
@@ -14,7 +14,8 @@
 }
 
 
-/*---------------------Menu----------------------*/
+
+/*---------------------MENU----------------------*/
 #menu li {
     display: inline;
     padding: 16px;
@@ -28,18 +29,25 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+    border: 1px solid white;
 }
 
 #menu li a:hover {
     color: red;
     font-size: 20px;
+    background-color: #141414;
 }
 
-/*---------------------Menu----------------------*/
-.fundo {
+/*---------------------FUNDOS----------------------*/
+.fundoblack {
     background-color: black;
 }
 
+.fundowhite {
+    background-color: white;
+}
+
+/*____________________TEXTO E TITULO______________*/
 .texto {
     color: white;
     column-count: 2;
@@ -53,7 +61,6 @@
 .title {
     color: white;
     font-size: 64px;
-    padding-bottom: 4%;
 }
 
 .title:hover {
@@ -65,7 +72,7 @@
     padding-left: 66px;
     padding-right: 66px;
 }
-
+/*___________IMAGENS______________________*/
 #imagem1 {
     width: 347px;
     height: 283px;
@@ -73,28 +80,116 @@
     padding-right: 15px;
 }
 
-.tm-social {
+#imagem {
+    width: 100%;
+    padding-bottom: 6%;
+}
+
+#imagem2 {
+    width: 50%;
+    border: 15px solid darkred;
+    border-radius: 15%;
+    }
+/*________________IMAGENS LOJA________________*/
+
+.lojaImagem{
+    width:30%;
+}
+.lojaImagem2{
+    padding-top: 2%;
+    width: 60%;
+    padding-left: 4%;
+}
+
+
+.lojaButton{
+    display: inline;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+.paragrafoLoja{
+    color: white;
+    width: 50%;
+    word-break: break-word;
+    padding: 1px;
+}
+
+
+
+
+
+/*___________________________________________-*/
+.wh-social {
     width: 40px;
     height: 40px;
+}
+
+.social {
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.social:hover {
+    border: 1px solid red;
+    border-radius: 100%;
+    background-color: red;
 }
 
 .mb-50 {
     margin-bottom: 50px;
 }
 
-.justify {
-    text-align: justify;
+.ml-20{
+    margin-left: 12%;
 }
 
-.button {
-    background-color: rgb(0, 0, 0);
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
+.conquista {
+    text-decoration: none;
+    color: red;
 }
 
-#imagem {
-    width: 100%;
-    padding-bottom: 6%;
+#fundo {
+    background-image: linear-gradient(black, rgb(70, 0, 0))
+}
+
+.paragrafowhite {
+    color: white;
+}
+
+.video1 {
+    border: solid white 15px;
+    border-radius: 15%;
+}
+
+.mapa{
+    padding-left: 50px;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+
+/*----------------BOTÃO DE COMPRAR-------------------*/
+
+.button{
+    display: inline;
+    padding: 16px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+.button :hover {
+    color: red;
+    font-size: 20px;
+    background-color: #141414;
 }

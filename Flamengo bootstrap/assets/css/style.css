@@ -1,0 +1,22 @@
+.conquista {
+    text-decoration: none;
+    color: red;
+}
+
+/*REDE SOCIAL CLASS*/
+.wh-social {
+    width: 40px;
+    height: 40px;
+}
+
+.social {
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.social:hover {
+    border: 1px solid red;
+    border-radius: 100%;
+    background-color: red;
+}
